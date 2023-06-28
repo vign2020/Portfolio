@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b1eaf300.css",
+    "main.js": "/Portfolio/static/js/main.bc5656b4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/whatsapp.jpg": "/Portfolio/static/media/whatsapp.dade528027bef2988e24.jpg",
+    "static/media/nodejs.png": "/Portfolio/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
+    "static/media/git-hub.jpeg": "/Portfolio/static/media/git-hub.b4f661a053d3cc4acff1.jpeg",
+    "static/media/profile.JPG": "/Portfolio/static/media/profile.8e1d6974594e82b8e3fc.JPG",
+    "static/media/room-rentals.png": "/Portfolio/static/media/room-rentals.84de7af05ce2b2f7f6ad.png",
+    "static/media/css.png": "/Portfolio/static/media/css.8a182087615a3845ebac.png",
+    "static/media/mongo.jpg": "/Portfolio/static/media/mongo.7f8d1fa4014d58f7e782.jpg",
+    "static/media/javascipt.png": "/Portfolio/static/media/javascipt.7f8751632b42a9932c15.png",
+    "static/media/projects1.png": "/Portfolio/static/media/projects1.ff1a0467397045e7351e.png",
+    "index.html": "/Portfolio/index.html",
+    "main.b1eaf300.css.map": "/Portfolio/static/css/main.b1eaf300.css.map",
+    "main.bc5656b4.js.map": "/Portfolio/static/js/main.bc5656b4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1eaf300.css",
+    "static/js/main.bc5656b4.js"
+  ]
+}
