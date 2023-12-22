@@ -1,23 +1,35 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import image1 from '../images/git-hub.jpeg'
+import image2 from '../images/html.png'
+
 export default function () {
   return (
     <div className='Header-main-container'>
-        <div className="title-about">
-        <h1 className='title'>Front End Developer</h1>
+      <div className="title-about-image-wrapper">
 
-<h2>👋 Hello there! I'm Vignesh , a passionate Front-End Developer with a knack for crafting captivating web experiences.</h2>
+   
+        <div className="title-about">
+        <h1 className='title'>Full stack Developer</h1>
+
+<h3>👋 Hello there! I'm Vignesh , a passionate Front-End Developer with a knack for crafting captivating web experiences.I am a senior year student from Vellore Institute of technology, Chennai majoring in computer science.</h3>
+
         </div>
       
-        <div className="image">
-            <img src={image1} height={500} width={450}/>
+        <div className="image-container">
+          <picture>
+            <source media='(max-width : 500px)' srcSet={image1} style={{'width' : '30px' , 'height' : '30px' }}/>
+              <img src={image1} className='image' style={{'width' : '300px' , 'height' : '300px' }}/>
+          </picture>
+           
+        </div>
         </div>
        
         
         <div className="resume-wrapper">
-            <button className="download">Download my resume</button>
-            <button className='hire'>hire me</button>
+        
+            <button className='hire'><Link to="contact" smooth={true} duration={200}>Hire me</Link></button>
         </div>
 
     </div>
