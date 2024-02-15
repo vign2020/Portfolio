@@ -3,6 +3,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 import image1 from '../images/git-hub.jpeg'
 import image2 from '../images/html.png'
+import photo2 from '../images/photo2.jpeg'
 
 export default function () {
   return (
